@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gy.allen.blacklakezbardemo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="扫码"
+        android:onClick="onClick"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+      />
+    <include layout="@layout/toolbar"/>
+</RelativeLayout>
