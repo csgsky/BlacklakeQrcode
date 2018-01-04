@@ -79,13 +79,13 @@ public class TestScanActivity extends AppCompatActivity implements QRCodeView.De
     @Override
     protected void onResume() {
         super.onResume();
-        mQRCodeView.startSpotDelay(200);
+        mQRCodeView.startSpotDelay(10);
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        mQRCodeView.startSpotDelay(200);
+        mQRCodeView.startSpotDelay(10);
         mQRCodeView.closeFlashlight();
     }
 
